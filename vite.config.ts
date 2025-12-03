@@ -6,18 +6,17 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
+    base: '/',  // <-- raíz, para Vercel
     server: {
       port: 3000,
       host: '0.0.0.0',
     },
-
     plugins: [react()],
-
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './'),
       },
-    }
+    },
   };
 });
 
