@@ -1,0 +1,5 @@
+{
+  "name": "Interactive AI Resume",
+  "description": "An interactive chatbot representing a professional candidate. Chat with the AI to learn about skills, experience, and background, or view the visual resume alongside.",
+  "requestFramePermissions": []
+}
